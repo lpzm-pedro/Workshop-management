@@ -70,6 +70,12 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="materiales.Designer.vb">
+      <DependentUpon>materiales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="materiales.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="main.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +102,9 @@
   <ItemGroup>
     <EmbeddedResource Include="main.resx">
       <DependentUpon>main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="materiales.resx">
+      <DependentUpon>materiales.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
