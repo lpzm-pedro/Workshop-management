@@ -41,46 +41,45 @@ Partial Class Register
         '
         Me.Button2.BackColor = System.Drawing.SystemColors.GradientInactiveCaption
         Me.Button2.Font = New System.Drawing.Font("Microsoft Tai Le", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(178, 321)
+        Me.Button2.Location = New System.Drawing.Point(383, 224)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(120, 40)
-        Me.Button2.TabIndex = 13
+        Me.Button2.Size = New System.Drawing.Size(156, 40)
+        Me.Button2.TabIndex = 5
         Me.Button2.Text = "Registrarse"
         Me.Button2.UseVisualStyleBackColor = False
         '
         'Button1
         '
-        Me.Button1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption
+        Me.Button1.BackColor = System.Drawing.Color.RosyBrown
         Me.Button1.Font = New System.Drawing.Font("Microsoft Tai Le", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(36, 321)
+        Me.Button1.Location = New System.Drawing.Point(210, 224)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(120, 40)
-        Me.Button1.TabIndex = 12
-        Me.Button1.Text = "Iniciar sesión"
+        Me.Button1.Size = New System.Drawing.Size(156, 40)
+        Me.Button1.TabIndex = 6
+        Me.Button1.Text = "Cancelar"
         Me.Button1.UseVisualStyleBackColor = False
         '
         'passwd
         '
         Me.passwd.Font = New System.Drawing.Font("Microsoft Tai Le", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.passwd.Location = New System.Drawing.Point(147, 276)
+        Me.passwd.Location = New System.Drawing.Point(316, 167)
         Me.passwd.Name = "passwd"
-        Me.passwd.Size = New System.Drawing.Size(150, 29)
-        Me.passwd.TabIndex = 11
-        Me.passwd.UseSystemPasswordChar = True
+        Me.passwd.Size = New System.Drawing.Size(223, 29)
+        Me.passwd.TabIndex = 4
         '
         'user
         '
         Me.user.Font = New System.Drawing.Font("Microsoft Tai Le", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.user.Location = New System.Drawing.Point(372, 41)
+        Me.user.Location = New System.Drawing.Point(316, 36)
         Me.user.Name = "user"
-        Me.user.Size = New System.Drawing.Size(167, 29)
-        Me.user.TabIndex = 10
+        Me.user.Size = New System.Drawing.Size(223, 29)
+        Me.user.TabIndex = 1
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(34, 275)
+        Me.Label2.Location = New System.Drawing.Point(205, 168)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(110, 25)
         Me.Label2.TabIndex = 9
@@ -90,11 +89,11 @@ Partial Class Register
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(269, 43)
+        Me.Label1.Location = New System.Drawing.Point(205, 38)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(79, 25)
+        Me.Label1.Size = New System.Drawing.Size(105, 25)
         Me.Label1.TabIndex = 8
-        Me.Label1.Text = "Usuario"
+        Me.Label1.Text = "Nombre(s)"
         '
         'PictureBox1
         '
@@ -102,9 +101,10 @@ Partial Class Register
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(36, 41)
+        Me.PictureBox1.Location = New System.Drawing.Point(2, 25)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(0)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(206, 206)
+        Me.PictureBox1.Size = New System.Drawing.Size(200, 200)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 7
         Me.PictureBox1.TabStop = False
@@ -112,34 +112,34 @@ Partial Class Register
         'TextBox1
         '
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Tai Le", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(372, 95)
+        Me.TextBox1.Location = New System.Drawing.Point(316, 71)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(167, 29)
-        Me.TextBox1.TabIndex = 15
+        Me.TextBox1.Size = New System.Drawing.Size(223, 29)
+        Me.TextBox1.TabIndex = 2
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(269, 97)
+        Me.Label3.Location = New System.Drawing.Point(205, 73)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(79, 25)
+        Me.Label3.Size = New System.Drawing.Size(94, 25)
         Me.Label3.TabIndex = 14
-        Me.Label3.Text = "Usuario"
+        Me.Label3.Text = "Apellidos"
         '
         'TextBox2
         '
         Me.TextBox2.Font = New System.Drawing.Font("Microsoft Tai Le", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(372, 152)
+        Me.TextBox2.Location = New System.Drawing.Point(316, 132)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(167, 29)
-        Me.TextBox2.TabIndex = 17
+        Me.TextBox2.Size = New System.Drawing.Size(223, 29)
+        Me.TextBox2.TabIndex = 3
         '
         'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(269, 154)
+        Me.Label4.Location = New System.Drawing.Point(205, 134)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(79, 25)
         Me.Label4.TabIndex = 16
@@ -149,7 +149,7 @@ Partial Class Register
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(574, 453)
+        Me.ClientSize = New System.Drawing.Size(574, 285)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.TextBox1)
@@ -180,4 +180,6 @@ Partial Class Register
     Friend WithEvents Label3 As Label
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents Label4 As Label
+
+
 End Class

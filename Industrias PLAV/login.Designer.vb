@@ -69,6 +69,7 @@ Partial Class login
         'user
         '
         Me.user.Font = New System.Drawing.Font("Microsoft Tai Le", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.user.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.user.Location = New System.Drawing.Point(143, 234)
         Me.user.Name = "user"
         Me.user.Size = New System.Drawing.Size(150, 29)
@@ -77,6 +78,7 @@ Partial Class login
         'passwd
         '
         Me.passwd.Font = New System.Drawing.Font("Microsoft Tai Le", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.passwd.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.passwd.Location = New System.Drawing.Point(143, 276)
         Me.passwd.Name = "passwd"
         Me.passwd.Size = New System.Drawing.Size(150, 29)
